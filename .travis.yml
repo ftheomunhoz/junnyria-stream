@@ -16,7 +16,7 @@ env:
     - JOB=ci-checks
   global:
     - CXX=g++-4.8  # node 4 likes the G++ v4.8 compiler
-    - LOGS_DIR=/tmp/junnyria-web/logs
+    - LOGS_DIR=/tmp/junnyria-stream/logs
 
 # node 4 likes the G++ v4.8 compiler
 # see https://docs.travis-ci.com/user/languages/javascript-with-nodejs#Node.js-v4-(or-io.js-v3)-compiler-requirements
@@ -42,9 +42,9 @@ deploy:
 
 notifications:
   email: false
-#  webhooks:
-#    urls:
-#      - https://webhooks.gitter.im/e/b2a1fdd21cfa14250e88
-#    on_success: change  # options: [always|never|change] default: always
-#    on_failure: always  # options: [always|never|change] default: always
-#    on_start: false     # default: false
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/7367a793cffa39636fc6
+    on_success: change  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: false     # default: false
