@@ -1,0 +1,33 @@
+{
+  "name": "junnyria-stream",
+  "version": "1.0.0",
+  "description": "Junnyria Stream App",
+  "main": "app.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftheomunhoz/junnyria-stream.git"
+  },
+  "keywords": [
+    "rpg",
+    "junnyria",
+    "web",
+    "angularjs"
+  ],
+  "author": "ftheomunhoz@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftheomunhoz/junnyria-stream/issues"
+  },
+  "homepage": "https://github.com/ftheomunhoz/junnyria-stream#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "http": "0.0.0",
+    "node-uuid": "^1.4.7",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "4.2.x"
+  }
+}
